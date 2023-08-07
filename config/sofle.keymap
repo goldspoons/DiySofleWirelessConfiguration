@@ -55,11 +55,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-          &hm ESC GRAVE          &kp N1                  &kp N2        &kp N3              &kp N4  &kp N5                                   &kp N6             &kp N7               &kp N8           &kp N9                   &kp N0  &kp GRAVE
-                &kp TAB           &kp Q                   &kp W         &kp E               &kp R   &kp T                                    &kp Y              &kp U                &kp I            &kp O                    &kp P  &kp EQUAL
-&hm LEFT_SHIFT CAPSLOCK  &hm LEFT_GUI A          &hm LEFT_ALT S   &hm LCTRL D    &hm LEFT_SHIFT F   &kp G                                    &kp H  &hm RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L  &hm RIGHT_GUI SEMICOLON    &kp SQT
-              &kp LCTRL           &kp Z                   &kp X         &kp C               &kp V   &kp B     &kp C_MUTE      &none          &kp N              &kp M            &kp COMMA          &kp DOT                 &kp FSLH  &kp RSHFT
-                                         &hm LEFT_ALT BACKSLASH  &kp LEFT_GUI  &hm LEFT_ALT ENTER   &mo 2  &kp BACKSPACE  &kp SPACE  &kp BACKSPACE          &kp ENTER                &none            &none
+       &hm ESCAPE GRAVE          &kp N1                  &kp N2        &kp N3              &kp N4  &kp N5                                   &kp N6                 &kp N7               &kp N8           &kp N9                   &kp N0  &kp MINUS
+                &kp TAB           &kp Q                   &kp W         &kp E               &kp R   &kp T                                    &kp Y                  &kp U                &kp I            &kp O                    &kp P  &kp EQUAL
+&hm LEFT_SHIFT CAPSLOCK  &hm LEFT_GUI A          &hm LEFT_ALT S   &hm LCTRL D    &hm LEFT_SHIFT F   &kp G                                    &kp H      &hm RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L  &hm RIGHT_GUI SEMICOLON    &kp SQT
+              &kp LCTRL           &kp Z                   &kp X         &kp C               &kp V   &kp B     &kp C_MUTE      &none          &kp N                  &kp M            &kp COMMA          &kp DOT                 &kp FSLH  &kp RSHFT
+                                         &hm LEFT_ALT BACKSLASH  &kp LEFT_GUI  &hm LEFT_ALT ENTER   &mo 1  &kp BACKSPACE  &kp SPACE  &kp BACKSPACE  &hm RIGHT_SHIFT ENTER                &none            &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PAGE_UP PG_DN>;
@@ -75,11 +75,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-         &trans  &trans  &trans  &trans   &trans   &trans                      &trans           &none             &none           &kp LPAR       &kp RPAR  &trans
-&kp PRINTSCREEN  &kp F1  &kp F2  &kp F3   &kp F4   &kp F5                      &trans        &kp HOME      &kp UP_ARROW            &kp END      &kp PG_UP  &trans
+     &kp ESCAPE  &trans  &trans  &trans   &trans   &trans                       &none           &none             &none           &kp LPAR       &kp RPAR  &trans
+&kp PRINTSCREEN  &kp F1  &kp F2  &kp F3   &kp F4   &kp F5                       &none        &kp HOME      &kp UP_ARROW            &kp END      &kp PG_UP  &trans
          &trans  &kp F6  &kp F7  &kp F8   &kp F9  &kp F10                  &kp INSERT  &kp LEFT_ARROW    &kp DOWN_ARROW    &kp RIGHT_ARROW  &kp PAGE_DOWN  &trans
          &trans   &none   &none   &none  &kp F11  &kp F12  &trans   &none  &kp DELETE           &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET       &kp BSLH  &trans
-                         &trans  &trans   &trans   &trans  &trans  &trans      &trans          &trans            &trans             &trans
+                         &trans  &trans   &trans   &trans   &mo 3  &trans       &mo 2          &trans            &trans             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
