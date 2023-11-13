@@ -29,9 +29,7 @@
         hm: hm {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
-            bindings =
-                <&kp>,
-                <&kp>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <150>;
@@ -59,7 +57,9 @@
                                 &kp BACKSLASH   &kp LEFT_GUI  &kp LEFT_ALT      &mo 1   &kp BACKSPACE  &kp SPACE  &kp ENTER  &mo 2              &none                &kp DELETE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PAGE_UP PG_DN>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_DN C_VOL_UP>,
+                <&inc_dec_kp PAGE_UP PG_DN>;
         };
 
         func_layer {
