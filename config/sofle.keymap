@@ -103,7 +103,7 @@
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
-        numpad_payer {
+        numpad_layer {
             bindings = <
 &trans  &kp EXCL          &kp AT          &kp HASH           &kp DLLR         &kp PRCNT                  &kp CARET  &kp AMPS         &kp STAR         &kp LPAR         &kp RPAR         &trans
 &trans  &none             &none           &none              &none            &none                      &none      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS      &kp KP_MINUS
