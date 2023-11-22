@@ -76,7 +76,7 @@
 &kp PRINTSCREEN  &kp F1  &kp F2  &kp F3  &kp F4   &kp F5                   &none       &kp HOME        &kp UP_ARROW      &kp END            &kp PG_UP      &trans
 &kp CAPS         &kp F6  &kp F7  &kp F8  &kp F9   &kp F10                  &kp INSERT  &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW    &kp PAGE_DOWN  &trans
 &trans           &none   &none   &none   &kp F11  &kp F12  &trans  &none   &kp DELETE  &none           &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BSLH       &trans
-                         &trans  &trans  &trans   &trans   &trans  &trans  &mo 2       &trans          &trans            &trans
+                         &trans  &trans  &trans   &mo 2    &trans  &trans  &trans      &trans          &trans            &trans
             >;
 
             sensor-bindings =
